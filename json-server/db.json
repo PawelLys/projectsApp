@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@test.com",
+      "password": "$2a$10$jdVT7oxqJvoUV7Dswv/fDet7SbiVqV4CNzNADbr4zXfZVQxDb2wxy",
+      "started": "01.01.2005",
+      "name": "FirstAdminName",
+      "surname": "LastAdminName",
+      "access": "full"
+    },
+    {
+      "id": 2,
+      "email": "adminNd@test.com",
+      "password": "$2a$10$jdVT7oxqJvoUV7Dswv/fDet7SbiVqV4CNzNADbr4zXfZVQxDb2wxy",
+      "started": "01.01.2006",
+      "name": "SecondAdminName",
+      "surname": "LastSecondAdminName",
+      "access": "full"
+    },
+    {
+      "id": 10,
+      "email": "user1@test.com",
+      "password": "$2a$10$4GdrXIaIOtq4QaSS8shNeuXAJReAtbVVSVOPxuGUkWDo6YMoVEFnC",
+      "started": "05.10.2012",
+      "name": "FirstUser1Name",
+      "surname": "LastUser1Name",
+      "access": "restricted"
+    },
+    {
+      "id": 11,
+      "email": "user@test.com",
+      "password": "$2a$10$oD6cfl8vGPzaWIDuJUkm4OMZzYa4VK56HNsypbiiamLBJsnGzEziO",
+      "started": "05.10.2012",
+      "name": "FirstUser2Name",
+      "surname": "LastUser2Name",
+      "access": "restricted"
+    },
+    {
+      "id": 12,
+      "email": "userwda@test.com",
+      "password": "$2a$10$oD6cfl8vGPzaWIDuJUkm4OMZzYa4VK56HNsypbiiamLBJsnGzEziO",
+      "started": "05.10.2013",
+      "name": "FirstUser3Name",
+      "surname": "LastUser3Name",
+      "access": "restricted"
+    },
+    {
+      "id": 13,
+      "email": "userwawdd@test.com",
+      "password": "$2a$10$oD6cfl8vGPzaWIDuJUkm4OMZzYa4VK56HNsypbiiamLBJsnGzEziO",
+      "started": "05.10.2014",
+      "name": "FirstUser4Name",
+      "surname": "LastUser4Name",
+      "access": "restricted"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "createdAt": "02.04.2013",
+      "prio": "1",
+      "assignedUsersId": "12, 10",
+      "status": "close",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa det."
+    },
+    {
+      "id": 2,
+      "createdAt": "03.06.2014",
+      "prio": "3",
+      "assignedUsersId": "",
+      "status": "open",
+      "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+    },
+    {
+      "id": 3,
+      "createdAt": "03.06.2014",
+      "prio": "2",
+      "assignedUsersId": "11, 10",
+      "status": "close",
+      "description": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
+    },
+    {
+      "id": 4,
+      "createdAt": "03.06.2014",
+      "prio": "1",
+      "assignedUsersId": "11",
+      "status": "close",
+      "description": "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi."
+    },
+    {
+      "created": "03.06.2014",
+      "prio": "1",
+      "assignedId": "3",
+      "status": "close",
+      "description": "",
+      "assignedUsersId": "",
+      "id": 5
+    }
+  ],
+  "assessment": [
+    {
+      "id": 1,
+      "projectId": "1",
+      "createdAt": "03.06.2014",
+      "createdBy": "1",
+      "userId": "10",
+      "value": "4",
+      "description": "Very good, odawoidwadoaidoadiaowdaiondnaodnoaidodwn"
+    },
+    {
+      "id": 2,
+      "projectId": "3",
+      "createdAt": "03.06.2016",
+      "createdBy": "1",
+      "userId": "11",
+      "value": "2",
+      "description": "Very bad, alwjoppaki[pkdajdpo;ajdp;apdihdkdbajk"
+    },
+    {
+      "id": 3,
+      "projectId": "1",
+      "createdAt": "03.08.2016",
+      "createdBy": "2",
+      "userId": "11",
+      "value": "3",
+      "description": "Mediocrate, czxcz ca dccs acwec  qeq qd"
+    }
+  ]
+}
